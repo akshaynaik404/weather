@@ -1,9 +1,36 @@
 .header {
   height: 56px;
+  background: #ff5a1e;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (min-width: 320px) {
+.title {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+@media (min-width: 769px) {
   .header {
     height: 64px;
+  }
+  .title {
+    padding-left: 64px;
+  }
+  .right {
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .right {
+    display: none;
+  }
+  .title {
+    flex: 1;
+    text-align: center;
   }
 }
