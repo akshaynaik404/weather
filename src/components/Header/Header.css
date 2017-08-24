@@ -1,0 +1,9 @@
+.header {
+  height: 56px;
+}
+
+@media (min-width: 320px) {
+  .header {
+    height: 64px;
+  }
+}

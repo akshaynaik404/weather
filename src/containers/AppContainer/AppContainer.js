@@ -1,12 +1,10 @@
 import React from 'react';
 
-import { App } from '../../components';
+import { HomeContainer } from '../';
 
 function AppContainer() {
   return (
-    <div>
-      <App />
-    </div>
+    <HomeContainer />
   );
 }
 
